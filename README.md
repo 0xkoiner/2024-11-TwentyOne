@@ -1,7 +1,4 @@
-# Protocol Name 
-
-
-### Prize Pool TO BE FILLED OUT BY CYFRIN
+# First Flight #29: TwentyOne
 
 - Starts: November 21, 2024 Noon UTC
 - Ends: November 28, 2024 Noon UTC
@@ -59,9 +56,9 @@ Tokens: - ETH
 
 Build:
 ```bash
-git clone https://github.com/Cyfrin/2024-11-twenty-one.git
+git clone https://github.com/Cyfrin/2024-11-twentyone.git
 
-cd 2024-11-twenty-one
+cd 2024-11-twentyone
  
 forge build
 ```
