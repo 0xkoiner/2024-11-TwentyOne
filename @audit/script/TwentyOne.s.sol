@@ -26,12 +26,10 @@ contract TwentyOneScript is Script {
         (bool success, ) = payable(address(twentyOne)).call{value: 10 ether}(
             ""
         );
-        console.log("success: ", success);
         if (!success) {
             return;
         }
         console.log("Funded contract with 10 ether.");
-        startGameTest();
     }
 
     function startGameTest() public {
